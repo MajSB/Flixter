@@ -24,17 +24,20 @@ gem 'devise', '>= 3.2.4'
 
 gem 'simple_form'
 
+#Pour les images et videos
 gem 'carrierwave'
-
-gem "figaro"
-
-gem "fog"
-
 gem 'mini_magick', '~> 4.3.1'
-
 gem 'carrierwave-aws'
 
+#Pour les mdp
+gem "figaro"
+gem "fog"
+
+#Pour les paiements
 gem 'stripe'
+
+#Pour ordonner une bdd
+gem 'ranked-model'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
