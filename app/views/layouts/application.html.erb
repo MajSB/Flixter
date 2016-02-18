@@ -59,9 +59,41 @@
 
   <div id="footer">
     <div class="container">
-      <b>Teacher</b>
-      <br />
-      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <div class="col-xs-12 col-sm-3">
+        <b>Teachers</b>
+        <br />
+        <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <br />
+        <%= link_to 'My Dashboard', dashboard_path %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>About</b>
+        <br />
+        <%= link_to 'Team', '#' %>
+        <br />
+        <%= link_to 'Careers', '#' %>
+        <br />
+        <%= link_to 'Privacy Policy', '#' %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>Contact</b>
+        <br />
+        majSB.86@gmail.com
+        <br />
+        Lago Sul
+        <br />
+        Brasilia DF, 77000
+      </div>
+      <div class="col-xs-12 col-sm-3 social">
+        <b>Social</b>
+        <br />
+        <%= link_to 'http://github.com/majsb' do %>
+          <%= image_tag 'github.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'http://br.linkedin.com/in/majdasaidibarroso' do %>
+          <%= image_tag 'linkedin.png', class: 'social-button' %>
+        <% end %>
+      </div>
     </div>
   </div>
 
